@@ -1,0 +1,121 @@
+:root {
+    box-sizing: border-box;
+    background-image: url("resources/background.jpg");
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    font-family: "Orbiton";
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    margin: 20px;
+    filter: drop-shadow( .2mm .4mm .6mm yellow);
+    color: yellow;
+}
+
+body {
+    font-family: 'Turntable';
+    text-align: center;
+}
+
+img {
+    height: 18rem;
+    margin: 4px;
+    margin-bottom: 10px;
+    border-radius: 20px 20px 20px 20px;
+    border: solid 4px yellow;
+    filter: drop-shadow( .2mm .4mm .6mm yellow);
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+}
+
+Button {
+    height: 3rem;
+    font-size: larger;
+    background-color: yellow;
+    box-shadow: inset 0px 0px 10px black;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    color: black;
+    border: solid 3px black
+}
+
+#maleButton {
+    border: solid 2px red;
+    border-radius: 20px 20px 20px 20px;
+}
+
+#maleButton:hover {
+    background-color: green;
+    box-shadow: inset 0px 0px 10px yellow;
+    border-color: yellow;
+    color: yellow;
+}
+
+#maleButton:focus {
+    outline-style: none;
+}
+
+#maleButton:active {
+    background-color: red;
+    box-shadow: inset 0px 0px 10px red;
+    border-color: red;
+    color: yellow;
+}
+
+#femaleButton {
+    border: solid 2px red;
+    border-radius: 20px 20px 20px 20px;
+}
+
+#femaleButton:hover {
+    background-color: green;
+    box-shadow: inset 0px 0px 10px yellow;
+    border-color: yellow;
+    color: yellow;
+}
+
+#femaleButton:active {
+    background-color: red;
+    box-shadow: inset 0px 0px 10p yellow;
+    border-color: yellow;
+    color: yellow;
+}
+
+#otherButton {
+    border: solid 2px red;
+    border-radius: 20px 20px 20px 20px;
+}
+
+#otherButton:hover {
+    background-color: green;
+    box-shadow: inset 0px 0px 10px yellow;
+    border-color: yellow;
+    color: yellow;
+}
+
+#otherButton:focus {
+    outline-style: none;
+}
+
+#otherButton:active {
+    background-color: red;
+    box-shadow: inset 0px 0px 10px yellow;
+    border-color: yellow;
+    color: yellow;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+}
